@@ -16,5 +16,6 @@ def hi(name):
 
 girls=['Rachel', 'Monica', 'Phoebe', 'Ola', 'Olly']
 
-for i in range(1,3):
-    print(i)
+for name in girls:
+    hi(name)
+    print('next girl')
